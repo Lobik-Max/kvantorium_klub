@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078375463841",
+    "project_id": "kvantorium-klub-8946a",
+    "storage_bucket": "kvantorium-klub-8946a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078375463841:android:9b50b1cd509e22f1ee29e0",
+        "android_client_info": {
+          "package_name": "com.example.kvantoriumklub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRU--dFT4VjgcM9OdGD_LCdZp_ot8IDwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

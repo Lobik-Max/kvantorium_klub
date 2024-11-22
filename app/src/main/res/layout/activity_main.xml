@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/startbg"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="200px"
+            app:srcCompat="@drawable/logo_kvantorium_big"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150px"
+            android:fontFamily="@font/theaterbold"
+            android:text="KВАНТОРИУМ КЛУБ"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Логин"
+            android:textColorHint="#706260"
+            android:textColor="@color/black"
+            android:fontFamily="@font/theaterbold"
+            android:id="@+id/login_ET"
+            android:singleLine="true"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:textColorHint="#706260"
+            android:textColor="@color/black"
+            android:fontFamily="@font/theaterbold"
+            android:id="@+id/password_ET"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:layout_marginBottom="50px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/log_Bt"
+            android:text="Войти"
+            android:fontFamily="@font/theaterbold"
+            android:layout_marginLeft="300px"
+            android:layout_marginRight="300px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_Bt"
+            android:text="Создать аккаунт"
+            android:fontFamily="@font/theaterbold"
+            android:layout_marginLeft="300px"
+            android:layout_marginRight="300px"/>
+    </LinearLayout>
+</FrameLayout>
